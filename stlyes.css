@@ -1,0 +1,29 @@
+.profile {
+  display: grid;
+  grid-template: auto/ repeat(6, 1fr);
+  gap: 1.6rem;
+  max-height: 18.75rem;
+}
+
+.profile-img img {
+  object-fit: cover;
+  min-width: 18.75rem;
+  max-height: 18.75rem;
+  border-radius: 1.8rem;
+}
+
+.profile-info {
+  max-height: 18.75rem;
+  padding: 3.6875rem 4.3125rem;
+  background: white;
+  border-radius: 1.8rem;
+  grid-column: 2/-1;
+  overflow: hidden;
+}
+
+.profile-info p {
+  font-weight: 400;
+  margin: 0;
+  color: gray;
+  line-height: 150%;
+}

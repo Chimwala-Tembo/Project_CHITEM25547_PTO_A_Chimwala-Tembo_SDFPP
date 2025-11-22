@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>sdf-portfolio-projectroject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-[#5C5C5C] font-[Poppins]">
     <div
@@ -12,16 +18,39 @@
     >
       <div class="w-full max-w-[82.25rem] space-y-4 md:space-y-8">
         <!--PROFILE SECTION-->
-        <header>
+        <header
+          class="bg-[#f6f6f6] rounded-3xl shadow-lg p-4 md:p-8 flex flex-row md:flex-row items-center gap-4 md:gap-8 w-full max-w-[20rem] mx-auto md:max-w-none"
+        >
           <!--Image-->
-          <div><img src="image.jpeg" /></div>
-          <div>
+          <div
+            class="flex-shrink-0 flex justify-center md:justify-start md:items-start"
+          >
+            <div
+              class="overflow-hidden bg-gray-300 rounded-[1.8125rem] w-[9.2rem] h-[8.6rem] md:w-[18.75rem] md:h-[18.75rem] flex-shrink-0"
+            >
+              <img
+                src="image.jpeg"
+                alt="Profile-picture"
+                class="h-full w-full object-cover"
+              />
+            </div>
+          </div>
+          <div
+            class="flex-1 bg-white rounded-[1.8125rem] max-h-[18.75rem] overflow-hidden px-4 py-4 md:px-[4.3125rem] md:py-[3.6875rem] space-y-3 md:space-y-4"
+          >
             <!--Information about me-->
-            <h1>Chimwala Tembo</h1>
-            <p>
-              I am a venture capital investor that focuses on early stage
-              technology
-              companies.ajs;fas;fasn;'snfklsnfskn'vsndvpnspdnvsknv;knxzk;gdfljgnlsjbdfa;usg;auwob;ouvba;ufhwEOHfuowcob;ojxn;cln
+            <h1 class="text-2xl md:text-3xl font-semibold text-gray-900">
+              Chimwala Tembo
+            </h1>
+            <p
+              class="text-[clamp(0.375rem,1.528vw,1.375rem)] font-normal text-[#5C5C5C] leading-[150%]"
+            >
+              I’m a venture capital investor and aspiring software builder. I’ve
+              decided to up my skills and become a software developer. So that i
+              can have a better understanding and appreciation of the technology
+              companies that my firm invests in. My ultimate goal is to build
+              great software, and better connect with the brilliant founders
+              shaping the future!
             </p>
           </div>
         </header>
